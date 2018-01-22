@@ -1,0 +1,6 @@
+<h1>Carros recém postados</h1>
+<ul>
+	<% @cars.each do |car| %>
+		<li><%= link_to car.complete_name, car %> </li>
+	<% end %>
+</ul>
