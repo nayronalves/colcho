@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+    attr_accessor :bio, :email, :full_name, :location, :password, :password_confirmation
+
     EMAIL_REGEXP = /\A[^@]+@([^@\.]+\.)+[^@\.]+\z/
 
     validates_presence_of :email, :full_name, :location

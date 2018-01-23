@@ -1,39 +1,30 @@
-<%= form_with(model: @car, local: true) do |form| %>
-   <% if @car.errors.any? %>
-      <div id="error_explanation">
-	 <h2><%= pluralize(@car.errors.count, "error") %> prohibited this employee from being saved:</h2>
-	      <ul> <% @car.errors.full_messages.each do |message| %>
-                   <li><%= message %></li>
-                   <% end %>
-	      </ul>
-      </div>
-   <% end %>
+<%=form_for @car do |f|%>
 	<div class="field">
-		<%= form.label :name %>
-		<%= form.text_field :name, id: :car_name %>
+		<%= f.label :name %>
+		<%= f.text_field :name, id: :car_name %>
 	</div>
 
 	<div class="field">
-		<%= form.label :brand %>
-		<%= form.text_field :brand, id: :car_brand %>
+		<%= f.label :brand %>
+		<%= f.text_field :brand, id: :car_brand %>
 	</div>
 
 	<div class="field">
-		<%= form.label :color %>
-		<%= form.text_field :color, id: :car_color %>
+		<%= f.label :color %>
+		<%= f.text_field :color, id: :car_color %>
 	</div>
 
 	<div class="field">
-		<%= form.label :power %>
-		<%= form.text_field :power, id: :car_power %>
+		<%= f.label :power %>
+		<%= f.text_field :power, id: :car_power %>
 	</div>
 
 	<div class="field">
-		<%= form.label :category %>
-		<%= form.text_field :category, id: :car_category %>
+		<%= f.label :category %>
+		<%= f.text_field :category, id: :car_category %>
 	</div>
 
 	<div class="actions">
-		<%= form.submit %>
+		<%= f.submit %>
 	</div>
 <% end %>
