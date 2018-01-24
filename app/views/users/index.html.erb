@@ -1,0 +1,33 @@
+<br>
+<h1 class="h1">users</h1>
+<br>
+<table>
+  <thead>
+    <tr>
+      <th>Nome Completo</th>
+      <th>Localidade</th>
+      <th>Email</th>
+      <th>Biografia</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.full_name %></td>
+        <td><%= user.location %></td>
+        <td><%= user.email %></td>
+        <td><%= user.bio %></td>
+        <td><%= link_to 'Show', user %></td>
+        <td><%= link_to 'Edit', edit_user_path(user) %></td>
+        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Confirma exclusão?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New user', new_user_path %>
+<%= link_to 'Back', root_path %>

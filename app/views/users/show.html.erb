@@ -1,10 +1,11 @@
-<p id="notice"><%= notice %></p>
-
-<h1><%= t '.title', user_name: @user.full_name %></h1>
+<!-- <p id="notice"><%= notice %></p> -->
+<br>
+<h1>Perfil de <%= @user.full_name %></h1>
 
 <ul>
-	<li><%= t '.location', location: @user.location %></li>
-	<li><%= t '.bio', bio: @user.bio %></li>
+	<li><bold>Localização</bold> <%= @user.location %></li>
+	<li><bold>Biografia</bold> <%= @user.bio %></li>
 </ul>
 <%= link_to t('.edit'), edit_user_path(@user) %>
+<%= link_to 'Back', users_path %>
 <%= link_to 'Home', root_path %>

@@ -82,7 +82,6 @@ header nav {
 		margin: 10px 0;
 	}
 }
-
 form {
 	label {
 		display: block;
@@ -98,7 +97,7 @@ form {
 		outline: 0;
 		@include shadow(rgba(0,0,0, 0.1), 0px, 0px, 8px);
 		&:focus {
-			border: 1px solid #c9c9c9;
+			border: 1px solid #c9c9c9;			
 		}
 	}
 	textarea {

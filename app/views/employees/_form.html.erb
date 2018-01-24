@@ -2,7 +2,6 @@
   <% if employee.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(employee.errors.count, "error") %> prohibited this employee from being saved:</h2>
-
       <ul>
       <% employee.errors.full_messages.each do |message| %>
         <li><%= message %></li>
@@ -13,44 +12,44 @@
 
   <div class="field">
     <%= form.label :nome %>
-    <%= form.text_field :nome, id: :employee_nome %>
+    <%= form.text_field :nome, id: :employee_nome, placeholder: "Digite aqui seu nome" %>
   </div>
 
   <div class="field">
     <%= form.label :lastname %>
-    <%= form.text_field :lastname, id: :employee_lastname %>
+    <%= form.text_field :lastname, id: :employee_lastname, placeholder: "Digite aqui seu sobrenome" %>
   </div>
 
   <div class="field">
     <%= form.label :telephone %>
-    <%= form.text_field :telephone, id: :employee_telephone %>
+    <%= form.text_field :telephone, id: :employee_telephone, placeholder: "Digite aqui o n.º do seu telefone" %>
   </div>
 
   <div class="field">
     <%= form.label :identity %>
-    <%= form.text_field :identity, id: :employee_identity %>
+    <%= form.text_field :identity, id: :employee_identity, placeholder: "Digite aqui seu nome" %>
   </div>
 
   <div class="field">
     <%= form.label :cpf %>
-    <%= form.text_field :cpf, id: :employee_cpf %>
+    <%= form.text_field :cpf, id: :employee_cpf, placeholder: "Digite aqui o n.º do seu CPF" %>
   </div>
 
   <div class="field">
     <%= form.label :address %>
-    <%= form.text_field :address, id: :employee_address %>
+    <%= form.text_field :address, id: :employee_address, placeholder: "Digite aqui seu endereço" %>
   </div>
 
   <div class="field">
     <%= form.label :function %>
-    <%= form.text_field :function, id: :employee_function %>
+    <%= form.text_field :function, id: :employee_function, placeholder: "Digite aqui seu cargo na empresa" %>
   </div>
 
   <div class="field">
     <%= form.label :salary %>
-    <%= form.text_field :salary, id: :employee_salary %>
+    <%= form.text_field :salary, id: :employee_salary, placeholder: "Digite aqui o valor do seu salário" %>
   </div>
-
+  
   <div class="actions">
     <%= form.submit %>
   </div>
