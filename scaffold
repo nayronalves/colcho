@@ -1,0 +1,1604 @@
+Script started on 2018-01-25 21:29:34-0300
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ script/destroy scaffold
+bash: script/destroy: Arquivo ou diretório não encontrado
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ script/destroy scaffold[K[K[K[K[K[Kcd 
+app/    bin/    config/ db/     .git/   lib/    log/    public/ test/   tmp/    vendor/ 
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ cd [K[K[Kbi
+bind         bioradtopgm  biosdecode   bison        bison.yacc   bitmap       
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ bi
+bind         bioradtopgm  biosdecode   bison        bison.yacc   bitmap       
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ bin
+bin/  bind  
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ bin
+bin/  bind  
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ bin/
+bundle  rails   rake    setup   spring  update  yarn    
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ bin/sc[K[K[K[K[K[Kl[Kls -l db/
+development.sqlite3  migrate/             schema.rb            seeds.rb             test.sqlite3         
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ ls -l db/[K[K[Kbin/
+bundle  rails   rake    setup   spring  update  yarn    
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ ls -l bin/[K[K[K[Kapp/
+assets/      channels/    controllers/ helpers/     jobs/        mailers/     models/      views/       
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ ls -l app/[K[K[K[Klib/
+assets/ tasks/  
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ ls -l lib/tasks/
+.keep               migrar_senhas.rake  
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ ls -l lib/tasks/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krails c
+Running via Spring preloader in process 6160
+Loading development environment (Rails 5.1.4)
+2.4.1 :001 > script
+[1mTraceback[m (most recent call last):
+        1: from (irb):1
+[1mNameError ([4mundefined local variable or method `script' for main:Object[0;1m)[m
+2.4.1 :002 > script/destrou[Ky scaffold
+[1mTraceback[m (most recent call last):
+[1mSyntaxError ([4m(irb):2: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+script/destroy scaffold
+               ^~~~~~~~[0;1m)[m
+2.4.1 :003 > script/destroy scaffold[K[K[K[K[K[K[K[K[K
+[1mTraceback[m (most recent call last):
+        1: from (irb):3
+[1mNameError ([4mundefined local variable or method `script' for main:Object[0;1m)[m
+2.4.1 :004 > quit
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ scar[K[Krjp[K[Kipt/[K[K[K[K[K[K[Krails script
+rails aborted!
+Don't know how to build task 'script' (see --tasks)
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/commands/rake/rake_command.rb:21:in `block in perform'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/commands/rake/rake_command.rb:18:in `perform'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/command.rb:46:in `invoke'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/commands.rb:16:in `<top (required)>'
+/home/nayronalves/colchonet/bin/rails:9:in `require'
+/home/nayronalves/colchonet/bin/rails:9:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `call'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/client/command.rb:7:in `call'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/client.rb:30:in `run'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/bin/spring:49:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `<top (required)>'
+/home/nayronalves/colchonet/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+(See full trace by running task with --trace)
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails script/destrou[Ky
+rails aborted!
+Don't know how to build task 'script/destroy' (see --tasks)
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/commands/rake/rake_command.rb:21:in `block in perform'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/commands/rake/rake_command.rb:18:in `perform'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/command.rb:46:in `invoke'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/commands.rb:16:in `<top (required)>'
+/home/nayronalves/colchonet/bin/rails:9:in `require'
+/home/nayronalves/colchonet/bin/rails:9:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `call'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/client/command.rb:7:in `call'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/client.rb:30:in `run'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/bin/spring:49:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `<top (required)>'
+/home/nayronalves/colchonet/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+(See full trace by running task with --trace)
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails script/destroy[K[K[K[K[K[K[K[K[K[K[K[K[K[Kd -h
+Running via Spring preloader in process 6199
+Usage: rails destroy GENERATOR [args] [options]
+
+General options:
+  -h, [--help]     # Print generator's options and usage
+  -p, [--pretend]  # Run but do not make any changes
+  -f, [--force]    # Overwrite files that already exist
+  -s, [--skip]     # Skip files that already exist
+  -q, [--quiet]    # Suppress status output
+
+Please choose a generator below.
+
+Rails:
+  assets
+  channel
+  controller
+  generator
+  helper
+  integration_test
+  jbuilder
+  job
+  mailer
+  migration
+  model
+  resource
+  scaffold
+  scaffold_controller
+  system_test
+  task
+
+Coffee:
+  coffee:assets
+
+Js:
+  js:assets
+
+TestUnit:
+  test_unit:generator
+  test_unit:plugin
+
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails de[K generator help
+Running via Spring preloader in process 6209
+[1m[31m      remove[0m  lib/generators/help/help_generator.rb
+[1m[31m      remove[0m  lib/generators/help/USAGE
+[1m[31m      remove[0m  lib/generators/help/templates
+[1m[37m      invoke[0m  test_unit
+[1m[31m      remove[0m    test/lib/generators/help_generator_test.rb
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ ;5~;5~[K[K[K[K[K[Krails script
+rails aborted!
+Don't know how to build task 'script' (see --tasks)
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/commands/rake/rake_command.rb:21:in `block in perform'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/commands/rake/rake_command.rb:18:in `perform'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/command.rb:46:in `invoke'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/commands.rb:16:in `<top (required)>'
+/home/nayronalves/colchonet/bin/rails:9:in `require'
+/home/nayronalves/colchonet/bin/rails:9:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `call'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/client/command.rb:7:in `call'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/client.rb:30:in `run'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/bin/spring:49:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `<top (required)>'
+/home/nayronalves/colchonet/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+(See full trace by running task with --trace)
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ tails [K[K[K[K[K[Krails destroy
+Running via Spring preloader in process 6255
+Usage: rails destroy GENERATOR [args] [options]
+
+General options:
+  -h, [--help]     # Print generator's options and usage
+  -p, [--pretend]  # Run but do not make any changes
+  -f, [--force]    # Overwrite files that already exist
+  -s, [--skip]     # Skip files that already exist
+  -q, [--quiet]    # Suppress status output
+
+Please choose a generator below.
+
+Rails:
+  assets
+  channel
+  controller
+  generator
+  helper
+  integration_test
+  jbuilder
+  job
+  mailer
+  migration
+  model
+  resource
+  scaffold
+  scaffold_controller
+  system_test
+  task
+
+Coffee:
+  coffee:assets
+
+Js:
+  js:assets
+
+TestUnit:
+  test_unit:generator
+  test_unit:plugin
+
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails d genere[Kate scaffold help
+Running via Spring preloader in process 6266
+Could not find generator 'generate'. Maybe you meant 'generator', 'assets' or 'helper'
+Run `rails generate --help` for more options.
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails d generate scaffold help[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P
+Running via Spring preloader in process 6275
+[1m[37m      invoke[0m  active_record
+[1m[31m      remove[0m    db/migrate/20180126000714_create_helps.rb
+[1m[31m      remove[0m    app/models/help.rb
+[1m[37m      invoke[0m    test_unit
+[1m[31m      remove[0m      test/models/help_test.rb
+[1m[31m      remove[0m      test/fixtures/helps.yml
+[1m[37m      invoke[0m  resource_route
+[1m[31m       route[0m    resources :helps
+[1m[37m      invoke[0m  scaffold_controller
+[1m[31m      remove[0m    app/controllers/helps_controller.rb
+[1m[37m      invoke[0m    erb
+[1m[31m      remove[0m      app/views/helps
+[1m[31m      remove[0m      app/views/helps/index.html.erb
+[1m[31m      remove[0m      app/views/helps/edit.html.erb
+[1m[31m      remove[0m      app/views/helps/show.html.erb
+[1m[31m      remove[0m      app/views/helps/new.html.erb
+[1m[31m      remove[0m      app/views/helps/_form.html.erb
+[1m[37m      invoke[0m    test_unit
+[1m[31m      remove[0m      test/controllers/helps_controller_test.rb
+[1m[37m      invoke[0m    helper
+[1m[31m      remove[0m      app/helpers/helps_helper.rb
+[1m[37m      invoke[0m      test_unit
+[1m[37m      invoke[0m    jbuilder
+[1m[31m      remove[0m      app/views/helps
+[1m[31m      remove[0m      app/views/helps/index.json.jbuilder
+[1m[31m      remove[0m      app/views/helps/show.json.jbuilder
+[1m[31m      remove[0m      app/views/helps/_help.json.jbuilder
+[1m[37m      invoke[0m  test_unit
+[1m[31m      remove[0m    test/system/helps_test.rb
+[1m[37m      invoke[0m  assets
+[1m[37m      invoke[0m    coffee
+[1m[31m      remove[0m      app/assets/javascripts/helps.coffee
+[1m[37m      invoke[0m    scss
+[1m[31m      remove[0m      app/assets/stylesheets/helps.scss
+[1m[37m      invoke[0m  scss
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails generate -h
+Running via Spring preloader in process 6348
+Usage: rails generate GENERATOR [args] [options]
+
+General options:
+  -h, [--help]     # Print generator's options and usage
+  -p, [--pretend]  # Run but do not make any changes
+  -f, [--force]    # Overwrite files that already exist
+  -s, [--skip]     # Skip files that already exist
+  -q, [--quiet]    # Suppress status output
+
+Please choose a generator below.
+
+Rails:
+  assets
+  channel
+  controller
+  generator
+  helper
+  integration_test
+  jbuilder
+  job
+  mailer
+  migration
+  model
+  resource
+  scaffold
+  scaffold_controller
+  system_test
+  task
+
+Coffee:
+  coffee:assets
+
+Js:
+  js:assets
+
+TestUnit:
+  test_unit:generator
+  test_unit:plugin
+
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails generate migrate -h
+Running via Spring preloader in process 6357
+Could not find generator 'migrate'. Maybe you meant 'migration', 'assets' or 'generator'
+Run `rails generate --help` for more options.
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails generate migrate -h[C[K-help
+Running via Spring preloader in process 6366
+Could not find generator 'migrate'. Maybe you meant 'migration', 'assets' or 'generator'
+Run `rails generate --help` for more options.
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails generate migrate --help[1P --help[1P --help[1P --help[1P --help[1P --help[1P --help[1P --help[1P--help
+Running via Spring preloader in process 6374
+Usage: rails generate GENERATOR [args] [options]
+
+General options:
+  -h, [--help]     # Print generator's options and usage
+  -p, [--pretend]  # Run but do not make any changes
+  -f, [--force]    # Overwrite files that already exist
+  -s, [--skip]     # Skip files that already exist
+  -q, [--quiet]    # Suppress status output
+
+Please choose a generator below.
+
+Rails:
+  assets
+  channel
+  controller
+  generator
+  helper
+  integration_test
+  jbuilder
+  job
+  mailer
+  migration
+  model
+  resource
+  scaffold
+  scaffold_controller
+  system_test
+  task
+
+Coffee:
+  coffee:assets
+
+Js:
+  js:assets
+
+TestUnit:
+  test_unit:generator
+  test_unit:plugin
+
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails generate --help[K[K[K[K[K[Kmigrate
+Running via Spring preloader in process 6384
+Could not find generator 'migrate'. Maybe you meant 'migration', 'assets' or 'generator'
+Run `rails generate --help` for more options.
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails generate migrate [1P i o n 
+Running via Spring preloader in process 6498
+Usage:
+  rails generate migration NAME [field[:type][:index] field[:type][:index]] [options]
+
+Options:
+      [--skip-namespace], [--no-skip-namespace]  # Skip namespace (affects only isolated applications)
+  -o, --orm=NAME                                 # ORM to be invoked
+                                                 # Default: active_record
+
+ActiveRecord options:
+  [--primary-key-type=PRIMARY_KEY_TYPE]  # The type for primary key
+
+Runtime options:
+  -f, [--force]                    # Overwrite files that already exist
+  -p, [--pretend], [--no-pretend]  # Run but do not make any changes
+  -q, [--quiet], [--no-quiet]      # Suppress status output
+  -s, [--skip], [--no-skip]        # Skip files that already exist
+
+Description:
+    Stubs out a new database migration. Pass the migration name, either
+    CamelCased or under_scored, and an optional list of attribute pairs as arguments.
+
+    A migration class is generated in db/migrate prefixed by a timestamp of the current date and time.
+
+    You can name your migration in either of these formats to generate add/remove
+    column lines from supplied attributes: AddColumnsToTable or RemoveColumnsFromTable
+
+Example:
+    `rails generate migration AddSslFlag`
+
+    If the current date is May 14, 2008 and the current time 09:09:12, this creates the AddSslFlag migration
+    db/migrate/20080514090912_add_ssl_flag.rb
+
+    `rails generate migration AddTitleBodyToPost title:string body:text published:boolean`
+
+    This will create the AddTitleBodyToPost in db/migrate/20080514090912_add_title_body_to_post.rb with this in the Change migration:
+
+      add_column :posts, :title, :string
+      add_column :posts, :body, :text
+      add_column :posts, :published, :boolean
+
+Migration names containing JoinTable will generate join tables for use with
+has_and_belongs_to_many associations.
+
+Example:
+    `rails g migration CreateMediaJoinTable artists musics:uniq`
+
+    will create the migration
+
+    create_join_table :artists, :musics do |t|
+      # t.index [:artist_id, :music_id]
+      t.index [:music_id, :artist_id], unique: true
+    end
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails generate migration Add[K[K[Kadd_con f[K[Kfim[Krmation_fields [K_to [K_users confirmade_at confirmation_token: confirmation_tokend confirmation_tokena confirmation_tokent confirmation_tokene confirmation_tokent confirmation_tokeni confirmation_tokenm confirmation_tokene confirmation_token [A]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@e[1@d
+Running via Spring preloader in process 6526
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20180126010717_add_confirmation_fields_to_users.rb
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ ca[K[Krake db>[K:migrate
+== 20180126010717 AddConfirmationFieldsToUsers: migrating =====================
+-- add_column(:users, :confirmed_at, :datetime)
+   -> 0.0025s
+-- add_column(:users, :confirmation_token, :string)
+   -> 0.0003s
+== 20180126010717 AddConfirmationFieldsToUsers: migrated (0.0032s) ============
+
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ 
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ ~[K]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ ~[K]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ ~[KU[Krails c
+Running via Spring preloader in process 7071
+Loading development environment (Rails 5.1.4)
+2.4.1 :001 > User.last[K[K[K[Klast.confirmation_token
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+ => "YzoMq_9KIK-pfCyr2wNs_g" 
+2.4.1 :002 > usr[Ker = User.
+Display all 602 possibilities? (y or n)
+                                                               User.i18n_scope
+User.__callbacks                                               User.ids
+User.__callbacks=                                              User.ignored_columns
+User.__callbacks?                                              User.ignored_columns=
+User.__id__                                                    User.ignored_columns?
+User.__send__                                                  User.in?
+User.__update_callbacks                                        User.in_batches
+User._attr_readonly                                            User.include
+User._attr_readonly=                                           User.include?
+User._attr_readonly?                                           User.include_root_in_json
+User._before_commit_callbacks                                  User.include_root_in_json=
+User._before_commit_callbacks=                                 User.include_root_in_json?
+User._before_commit_without_transaction_enrollment_callbacks   User.included_modules
+User._before_commit_without_transaction_enrollment_callbacks=  User.includes
+User._commit_callbacks                                         User.increment_counter
+User._commit_callbacks=                                        User.index_nested_attribute_errors
+User._commit_without_transaction_enrollment_callbacks          User.index_nested_attribute_errors=
+User._commit_without_transaction_enrollment_callbacks=         User.inheritance_column
+User._create_callbacks                                         User.inheritance_column=
+User._create_callbacks=                                        User.initialize_find_by_cache
+--More--[KUser._default_attributes                                       User.initialize_generated_modules
+User._destroy_callbacks                                        User.initialize_load_schema_monitor
+User._destroy_callbacks=                                       User.initialize_relation_delegate_cache
+User._find_callbacks                                           User.inspect
+User._find_callbacks=                                          User.instance_eval
+User._initialize_callbacks                                     User.instance_exec
+User._initialize_callbacks=                                    User.instance_method
+User._reflect_on_association                                   User.instance_method_already_implemented?
+User._reflections                                              User.instance_methods
+User._reflections=                                             User.instance_of?
+User._reflections?                                             User.instance_values
+User._rollback_callbacks                                       User.instance_variable_defined?
+User._rollback_callbacks=                                      User.instance_variable_get
+User._rollback_without_transaction_enrollment_callbacks        User.instance_variable_names
+User._rollback_without_transaction_enrollment_callbacks=       User.instance_variable_set
+User._save_callbacks                                           User.instance_variables
+User._save_callbacks=                                          User.instantiate
+User._store_accessors_module                                   User.internal_metadata_table_name
+User._to_partial_path                                          User.internal_metadata_table_name=
+User._touch_callbacks                                          User.internal_metadata_table_name?
+--More--[KUser._touch_callbacks=                                         User.is_a?
+User._update_callbacks                                         User.itself
+User._update_callbacks=                                        User.joins
+User._validate_callbacks                                       User.json_creatable?
+User._validate_callbacks=                                      User.kind_of?
+User._validation_callbacks                                     User.last
+User._validation_callbacks=                                    User.last!
+User._validators                                               User.left_joins
+User._validators=                                              User.left_outer_joins
+User._validators?                                              User.limit
+User.abstract_class                                            User.load_dependency
+User.abstract_class=                                           User.local_stored_attributes
+User.abstract_class?                                           User.local_stored_attributes=
+User.accepts_nested_attributes_for                             User.lock
+User.acts_like?                                                User.lock_optimistically
+User.after_commit                                              User.lock_optimistically=
+User.after_commit_without_transaction_enrollment               User.lock_optimistically?
+User.after_create                                              User.locking_column
+User.after_create_commit                                       User.locking_column=
+User.after_destroy                                             User.locking_enabled?
+--More--[K2.4.1 :002 > user = User.last
+  [1m[36mUser Load (78.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+ => #<User id: 11, full_name: "Oteilson Carvalho", email: "oteilsoncarv@bol.com.br", location: "Pindamonhangaba", bio: "Isto é um teste de cadastro de usuário com confirm...", created_at: "2018-01-26 02:15:24", updated_at: "2018-01-26 02:15:24", password_digest: nil, confirmed_at: nil, confirmation_token: "YzoMq_9KIK-pfCyr2wNs_g"> 
+2.4.1 :003 > user.confirm?[K!
+[1mTraceback[m (most recent call last):
+        1: from (irb):3
+[1mNoMethodError ([4mundefined method `confirm!' for #<User:0x0000557c35fdd3e0>
+Did you mean?  confirmed_at[0;1m)[m
+2.4.1 :004 > user.confirm![K = User.last[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P User.last[1PUser.last[C[C[C[C[C[C[C[C[C.co
+Display all 387 possibilities? (y or n)
+2.4.1 :004 > User.last.confi
+User.last.conficts_when_loaded_with?              User.last.confirmation_token_change
+User.last.config                                  User.last.confirmation_token_change_to_be_saved
+User.last.config=                                 User.last.confirmation_token_changed?
+User.last.config?                                 User.last.confirmation_token_in_database
+User.last.config_file                             User.last.confirmation_token_previous_change
+User.last.config_file_name                        User.last.confirmation_token_previously_changed?
+User.last.config_for                              User.last.confirmation_token_was
+User.last.config_map                              User.last.confirmation_token_will_change!
+User.last.configuration                           User.last.confirmed_at
+User.last.configuration=                          User.last.confirmed_at=
+User.last.configurations                          User.last.confirmed_at?
+User.last.configurations=                         User.last.confirmed_at_before_last_save
+User.last.configure                               User.last.confirmed_at_before_type_cast
+User.last.configure!                              User.last.confirmed_at_came_from_user?
+User.last.configured_bundle_path                  User.last.confirmed_at_change
+User.last.confirm                                 User.last.confirmed_at_change_to_be_saved
+User.last.confirmation_token                      User.last.confirmed_at_changed?
+User.last.confirmation_token=                     User.last.confirmed_at_in_database
+User.last.confirmation_token?                     User.last.confirmed_at_previous_change
+User.last.confirmation_token_before_last_save     User.last.confirmed_at_previously_changed?
+--More--[K2.4.1 :004 > User.last.confirm!
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+[1mTraceback[m (most recent call last):
+        1: from (irb):4
+[1mNoMethodError ([4mundefined method `confirm!' for #<User:0x0000557c35f02cb8>
+Did you mean?  confirmed_at[0;1m)[m
+2.4.1 :005 > User.last.confirm![C[C[C[C[C[C[C[C[C[C[C[C[C[6Puser.confirm!
+[1mTraceback[m (most recent call last):
+        1: from (irb):5
+[1mNoMethodError ([4mundefined method `confirm!' for #<User:0x0000557c35fdd3e0>
+Did you mean?  confirmed_at[0;1m)[m
+2.4.1 :006 > user.confirm!User.last.confirm![C[C[C[C[C[C[C[C[C[C[C[C[C[5Puser.confirm! = User.last[3P.confirm!User.last.confirm![C[C[C[C[C[C[C[C[C[C[C[C[C[5Puser.confirm!
+[1mTraceback[m (most recent call last):
+        1: from (irb):6
+[1mNoMethodError ([4mundefined method `confirm!' for #<User:0x0000557c35fdd3e0>
+Did you mean?  confirmed_at[0;1m)[m
+2.4.1 :007 > user.confirm![K[K[K[Kirm
+user.confirmation_token                      user.confirmed_at
+user.confirmation_token=                     user.confirmed_at=
+user.confirmation_token?                     user.confirmed_at?
+user.confirmation_token_before_last_save     user.confirmed_at_before_last_save
+user.confirmation_token_before_type_cast     user.confirmed_at_before_type_cast
+user.confirmation_token_came_from_user?      user.confirmed_at_came_from_user?
+user.confirmation_token_change               user.confirmed_at_change
+user.confirmation_token_change_to_be_saved   user.confirmed_at_change_to_be_saved
+user.confirmation_token_changed?             user.confirmed_at_changed?
+user.confirmation_token_in_database          user.confirmed_at_in_database
+user.confirmation_token_previous_change      user.confirmed_at_previous_change
+user.confirmation_token_previously_changed?  user.confirmed_at_previously_changed?
+user.confirmation_token_was                  user.confirmed_at_was
+user.confirmation_token_will_change!         user.confirmed_at_will_change!
+2.4.1 :007 > user.confirmed_at?
+ => false 
+2.4.1 :008 > user.confirmed_at?[K[K[K[K?
+[1mTraceback[m (most recent call last):
+        1: from (irb):8
+[1mNoMethodError ([4mundefined method `confirmed?' for #<User:0x0000557c35fdd3e0>
+Did you mean?  confirmed_at?
+               confirmed_at[0;1m)[m
+2.4.1 :009 > user.confirmed?_at?![K
+[1mTraceback[m (most recent call last):
+        1: from (irb):9
+[1mNoMethodError ([4mundefined method `confirm!' for #<User:0x0000557c35fdd3e0>
+Did you mean?  confirmed_at[0;1m)[m
+2.4.1 :010 > user.confirm!ed?
+[1mTraceback[m (most recent call last):
+        1: from (irb):10
+[1mNoMethodError ([4mundefined method `confirmed?' for #<User:0x0000557c35fdd3e0>
+Did you mean?  confirmed_at?
+               confirmed_at[0;1m)[m
+2.4.1 :011 > user.confirmed?[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KUser.last.condi[K[Kfirm
+User.last.confirm                                 User.last.confirmed_at
+User.last.confirmation_token                      User.last.confirmed_at=
+User.last.confirmation_token=                     User.last.confirmed_at?
+User.last.confirmation_token?                     User.last.confirmed_at_before_last_save
+User.last.confirmation_token_before_last_save     User.last.confirmed_at_before_type_cast
+User.last.confirmation_token_before_type_cast     User.last.confirmed_at_came_from_user?
+User.last.confirmation_token_came_from_user?      User.last.confirmed_at_change
+User.last.confirmation_token_change               User.last.confirmed_at_change_to_be_saved
+User.last.confirmation_token_change_to_be_saved   User.last.confirmed_at_changed?
+User.last.confirmation_token_changed?             User.last.confirmed_at_in_database
+User.last.confirmation_token_in_database          User.last.confirmed_at_previous_change
+User.last.confirmation_token_previous_change      User.last.confirmed_at_previously_changed?
+User.last.confirmation_token_previously_changed?  User.last.confirmed_at_was
+User.last.confirmation_token_was                  User.last.confirmed_at_will_change!
+User.last.confirmation_token_will_change!         
+2.4.1 :011 > User.last.confirm!
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+[1mTraceback[m (most recent call last):
+        1: from (irb):11
+[1mNoMethodError ([4mundefined method `confirm!' for #<User:0x0000557c36502550>
+Did you mean?  confirmed_at[0;1m)[m
+2.4.1 :012 > User.last.confirm![K_at?
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+[1mTraceback[m (most recent call last):
+        1: from (irb):12
+[1mNoMethodError ([4mundefined method `confirm_at?' for #<User:0x0000557c3666c260>
+Did you mean?  confirmed_at?
+               confirmed_at
+               confirmed_at=[0;1m)[m
+2.4.1 :013 > User.last.confirm_at?[K!
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+[1mTraceback[m (most recent call last):
+        1: from (irb):13
+[1mNoMethodError ([4mundefined method `confirm_at!' for #<User:0x00007fe93c0214d0>
+Did you mean?  confirmed_at
+               confirmed_at?
+               confirmed_at=[0;1m)[m
+2.4.1 :014 > User.last.confirm_at![K?![K[C[C[C[C[C[C[C[C[C[C[C[C[C[3Puser.confirmed?[C[C[C[C[C[C[C[C[C[C[C[C[CUser.last.confirm!_at?[1P?[1P?[1P?e?d?
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+[1mTraceback[m (most recent call last):
+        1: from (irb):14
+[1mNoMethodError ([4mundefined method `confirmed?' for #<User:0x0000557c3675c3a0>
+Did you mean?  confirmed_at?
+               confirmed_at[0;1m)[m
+2.4.1 :015 > User.last.confirmed?[K[K[Kation_token?
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+ => true 
+2.4.1 :016 > User.last.confirmation_token?[K
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+ => "YzoMq_9KIK-pfCyr2wNs_g" 
+2.4.1 :017 > User.last.confirmation_token?ed?[K_at?![K[C[C[C[C[C[C[C[C[C[C[C[C[C[3Puser.confirmed?[C[C[C[C[C[C[C[C[C[C[C[C[CUser.last.confirm![C[C[C[C[C[C[C[C[C[C[C[C[C[3Puser.confirmed?[2P!
+[1mTraceback[m (most recent call last):
+        1: from (irb):17
+[1mNoMethodError ([4mundefined method `confirm!' for #<User:0x0000557c35fdd3e0>
+Did you mean?  confirmed_at[0;1m)[m
+2.4.1 :018 > user.confirm!
+[1mTraceback[m (most recent call last):
+        1: from (irb):18
+[1mNoMethodError ([4mundefined method `confirm!' for #<User:0x0000557c35fdd3e0>
+Did you mean?  confirmed_at[0;1m)[m
+2.4.1 :019 > user.confirm!
+[1mTraceback[m (most recent call last):
+        1: from (irb):19
+[1mNoMethodError ([4mundefined method `confirm!' for #<User:0x0000557c35fdd3e0>
+Did you mean?  confirmed_at[0;1m)[m
+2.4.1 :020 > quit
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails c
+Running via Spring preloader in process 7552
+Loading development environment (Rails 5.1.4)
+2.4.1 :001 > user = Y[KUser.last
+  [1m[36mUser Load (14.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+ => #<User id: 11, full_name: "Oteilson Carvalho", email: "oteilsoncarv@bol.com.br", location: "Pindamonhangaba", bio: "Isto é um teste de cadastro de usuário com confirm...", created_at: "2018-01-26 02:15:24", updated_at: "2018-01-26 02:15:24", password_digest: nil, confirmed_at: nil, confirmation_token: "YzoMq_9KIK-pfCyr2wNs_g"> 
+2.4.1 :002 > user.confirm!
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (129.8ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = ?, "confirmed_at" = ?, "confirmation_token" = ? WHERE "users"."id" = ?[0m  [["updated_at", "2018-01-26 02:39:21.599763"], ["confirmed_at", "2018-01-26 02:39:21.598908"], ["confirmation_token", ""], ["id", 11]]
+  [1m[35m (41.6ms)[0m  [1m[36mcommit transaction[0m
+ => true 
+2.4.1 :003 > user.confirmed?
+ => true 
+2.4.1 :004 > user.confirmation_token
+ => "" 
+2.4.1 :005 > rake raoutes[K[K[K[K[K[K[K[K[K[K[K[Kquit
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rake routes
+       Prefix Verb   URI Pattern                   Controller#Action
+    employees GET    /employees(.:format)          employees#index
+              POST   /employees(.:format)          employees#create
+ new_employee GET    /employees/new(.:format)      employees#new
+edit_employee GET    /employees/:id/edit(.:format) employees#edit
+     employee GET    /employees/:id(.:format)      employees#show
+              PATCH  /employees/:id(.:format)      employees#update
+              PUT    /employees/:id(.:format)      employees#update
+              DELETE /employees/:id(.:format)      employees#destroy
+         cars GET    /cars(.:format)               cars#index
+              POST   /cars(.:format)               cars#create
+      new_car GET    /cars/new(.:format)           cars#new
+     edit_car GET    /cars/:id/edit(.:format)      cars#edit
+          car GET    /cars/:id(.:format)           cars#show
+              PATCH  /cars/:id(.:format)           cars#update
+              PUT    /cars/:id(.:format)           cars#update
+              DELETE /cars/:id(.:format)           cars#destroy
+        users GET    /users(.:format)              users#index
+              POST   /users(.:format)              users#create
+     new_user GET    /users/new(.:format)          users#new
+    edit_user GET    /users/:id/edit(.:format)     users#edit
+         user GET    /users/:id(.:format)          users#show
+              PATCH  /users/:id(.:format)          users#update
+              PUT    /users/:id(.:format)          users#update
+              DELETE /users/:id(.:format)          users#destroy
+ confirmation GET    /confirmation(.:format)       confirmations#show
+         root GET    /                             home#index
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rake routes | grep cons[Kfirmation
+ [01;31m[Kconfirmation[m[K GET    /[01;31m[Kconfirmation[m[K(.:format)       [01;31m[Kconfirmation[m[Ks#show
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rake routes | grep confirmation[K[4Pils c
+Running via Spring preloader in process 7948
+Loading development environment (Rails 5.1.4)
+2.4.1 :001 > quituser.confirmation_token[K[K[K[K[K[K[2Ped?[2P! = User.last[C[C[C[C[C[C[C[C[C[C[C[C[Cquit[Kuser = User.last[3P.confirm!ed?ation[2Ped?[K[K[K[K[K[K[K[K[K[K[K_[K.confirm
+user.confirm            user.confirmation_path  user.confirmation_url   
+2.4.1 :001 > user.confirmat[K[Ked_email
+[1mTraceback[m (most recent call last):
+        1: from (irb):1
+[1mNameError ([4mundefined local variable or method `user' for main:Object[0;1m)[m
+2.4.1 :002 > user.confirmed_email[K[K[K[K[K[K[K[K[Km
+user.confirm            user.confirmation_path  user.confirmation_url   
+2.4.1 :002 > user.confirm
+user.confirm            user.confirmation_path  user.confirmation_url   
+2.4.1 :002 > user.confirm_email
+[1mTraceback[m (most recent call last):
+        1: from (irb):2
+[1mNameError ([4mundefined local variable or method `user' for main:Object[0;1m)[m
+2.4.1 :003 > user.confirm_email[C[C[C[C[C[C[C[C[C[C[C[C[C[KUser.[KMailer [K.confirm[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KsignupM[1PignupMSignupM[C[C[C[C[C[Caail[K[K[Kiler.confirme[K_email()U)s)e)r).)l)a)s)t)
+  [1m[36mUser Load (14.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+user.full_name
+linkhttp://localhost:3000/confirmation?token=
+link<a href="http://localhost:3000/">Cars.net</a>
+  Rendered signup_mailer/confirm_email.html.erb (4.6ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Oteilson CarvalhoO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Oteilson Carvalho"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation?token="}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (4.6ms)
+SignupMailer#confirm_email: processed outbound mail in 438.0ms
+ => #<Mail::Message:47076590244620, Multipart: true, Headers: <From: no-reply@cars.net>, <To: oteilsoncarv@bol.com.br>, <Bcc: ["sign ups <signups@cars.net>"]>, <Subject: Cars.net - confirme seu email>, <Mime-Version: 1.0>, <Content-Type: multipart/alternative; boundary="--==_mimepart_5a6a98dde43f3_1f0c2ad0dd9d2640697"; charset=UTF-8>> 
+2.4.1 :004 > SignupMailer.confirm_email(User.last)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+user.full_name
+linkhttp://localhost:3000/confirmation?token=
+link<a href="http://localhost:3000/">Cars.net</a>
+  Rendered signup_mailer/confirm_email.html.erb (0.2ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Oteilson CarvalhoO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Oteilson Carvalho"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation?token="}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (0.2ms)
+SignupMailer#confirm_email: processed outbound mail in 7.5ms
+ => #<Mail::Message:47076588883100, Multipart: true, Headers: <From: no-reply@cars.net>, <To: oteilsoncarv@bol.com.br>, <Bcc: ["sign ups <signups@cars.net>"]>, <Subject: Cars.net - confirme seu email>, <Mime-Version: 1.0>, <Content-Type: multipart/alternative; boundary="--==_mimepart_5a6a99397dead_1f0c2ad0dd9d26407030"; charset=UTF-8>> 
+2.4.1 :005 > SignupMailer.confirm_email(User.last)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+user.full_name
+linkhttp://localhost:3000/confirmation?token=
+link<a href="http://localhost:3000/">Cars.net</a>
+  Rendered signup_mailer/confirm_email.html.erb (0.3ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Oteilson CarvalhoO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Oteilson Carvalho"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation?token="}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (0.4ms)
+SignupMailer#confirm_email: processed outbound mail in 13.8ms
+ => #<Mail::Message:47076585312360, Multipart: true, Headers: <From: no-reply@cars.net>, <To: oteilsoncarv@bol.com.br>, <Bcc: ["sign ups <signups@cars.net>"]>, <Subject: Cars.net - confirme seu email>, <Mime-Version: 1.0>, <Content-Type: multipart/alternative; boundary="--==_mimepart_5a6a993ceb1e6_1f0c2ad0dd9d26407182"; charset=UTF-8>> 
+2.4.1 :006 > rui[K[K[Kquit
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails cke routes | grep confirmationils c[K
+Running via Spring preloader in process 8100
+Loading development environment (Rails 5.1.4)
+^[[A2.4.1 :001 > quitSignupMailer.confirm_email(User.last)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+user.full_name
+linkhttp://localhost:3000/confirmation?token=
+link<a href="http://localhost:3000/">Cars.net</a>
+  Rendered signup_mailer/confirm_email.html.erb (5.3ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Oteilson CarvalhoO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Oteilson Carvalho"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation?token="}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (1.5ms)
+SignupMailer#confirm_email: processed outbound mail in 238.9ms
+ => #<Mail::Message:47076585623360, Multipart: true, Headers: <From: no-reply@cars.net>, <To: oteilsoncarv@bol.com.br>, <Bcc: ["sign ups <signups@cars.net>"]>, <Subject: Cars.net - confirme seu email>, <Mime-Version: 1.0>, <Content-Type: multipart/alternative; boundary="--==_mimepart_5a6a994d930f4_1fa42ad0dd9d264071020"; charset=UTF-8>> 
+2.4.1 :002 > SignupMailer.confirm_email(User.last)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+user.full_name
+linkhttp://localhost:3000/confirmation?token=
+link<a href="http://localhost:3000/">Cars.net</a>
+  Rendered signup_mailer/confirm_email.html.erb (0.4ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Oteilson CarvalhoO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Oteilson Carvalho"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation?token="}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (0.5ms)
+SignupMailer#confirm_email: processed outbound mail in 8.0ms
+ => #<Mail::Message:47076585182380, Multipart: true, Headers: <From: no-reply@cars.net>, <To: oteilsoncarv@bol.com.br>, <Bcc: ["sign ups <signups@cars.net>"]>, <Subject: Cars.net - confirme seu email>, <Mime-Version: 1.0>, <Content-Type: multipart/alternative; boundary="--==_mimepart_5a6a99fd61fb7_1fa42ad0dd9d26407112c"; charset=UTF-8>> 
+2.4.1 :003 > SignupMailer.confirm_email(User.last)[1P)[1P)[1P)[1P)f)i)r)s)t)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+user.full_name
+linkhttp://localhost:3000/confirmation
+link<a href="http://localhost:3000/">Cars.net</a>
+  Rendered signup_mailer/confirm_email.html.erb (0.2ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Ana CarolineO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Ana Caroline"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation"}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (0.3ms)
+SignupMailer#confirm_email: processed outbound mail in 7.7ms
+ => #<Mail::Message:47076593688860, Multipart: true, Headers: <From: no-reply@cars.net>, <To: acarolinecardoso@gmail.com>, <Bcc: ["sign ups <signups@cars.net>"]>, <Subject: Cars.net - confirme seu email>, <Mime-Version: 1.0>, <Content-Type: multipart/alternative; boundary="--==_mimepart_5a6a9a039d073_1fa42ad0dd9d2640712b9"; charset=UTF-8>> 
+2.4.1 :004 > SignupMailer.confirm_email(User.first)[1P)[1P)[1P)[1P)[1P)l)a)s)t)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+user.full_name
+linkhttp://localhost:3000/confirmation?token=
+link<a href="http://localhost:3000/">Cars.net</a>
+  Rendered signup_mailer/confirm_email.html.erb (0.2ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Oteilson CarvalhoO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Oteilson Carvalho"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation?token="}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (0.3ms)
+SignupMailer#confirm_email: processed outbound mail in 7.9ms
+ => #<Mail::Message:47076584960320, Multipart: true, Headers: <From: no-reply@cars.net>, <To: oteilsoncarv@bol.com.br>, <Bcc: ["sign ups <signups@cars.net>"]>, <Subject: Cars.net - confirme seu email>, <Mime-Version: 1.0>, <Content-Type: multipart/alternative; boundary="--==_mimepart_5a6a9aeb45ea0_1fa42ad0dd9d26407137a"; charset=UTF-8>> 
+2.4.1 :005 > SignupMailer.confirm_email(User.last).deliver
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+user.full_name
+linkhttp://localhost:3000/confirmation?token=
+link<a href="http://localhost:3000/">Cars.net</a>
+  Rendered signup_mailer/confirm_email.html.erb (0.2ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Oteilson CarvalhoO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Oteilson Carvalho"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation?token="}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (0.3ms)
+SignupMailer#confirm_email: processed outbound mail in 7.4ms
+Sent mail to oteilsoncarv@bol.com.br (187.3ms)
+Date: Fri, 26 Jan 2018 00:06:24 -0300
+From: no-reply@cars.net
+To: oteilsoncarv@bol.com.br
+Message-ID: <5a6a9b3084a0c_1fa42ad0dd9d264071588@UbuntuVBox.mail>
+Subject: Cars.net - confirme seu email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a6a9b307444f_1fa42ad0dd9d26407149d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6a9b307444f_1fa42ad0dd9d26407149d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6a9b307444f_1fa42ad0dd9d26407149d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1>Seja bem vindo ao Cars.net!</h1>
+<p>Seja bem vindo ao Colcho.net,  O Colcho.net =C3=A9 o lugar ideal para =
+voc=C3=AA alugar aquele quarto sobrando na sua casa e ainda conhecer gent=
+e do mundo inteiro.</p>
+<p>Para voc=C3=AA come=C3=A7ar a usar o site, acesse o link:   </p>
+<p>Obrigado por se cadastrar no  </p>=
+
+----==_mimepart_5a6a9b307444f_1fa42ad0dd9d26407149d--
+
+ => #<Mail::Message:47076595052260, Multipart: true, Headers: <Date: Fri, 26 Jan 2018 00:06:24 -0300>, <From: no-reply@cars.net>, <To: oteilsoncarv@bol.com.br>, <Bcc: ["sign ups <signups@cars.net>"]>, <Message-ID: <5a6a9b3084a0c_1fa42ad0dd9d264071588@UbuntuVBox.mail>>, <Subject: Cars.net - confirme seu email>, <Mime-Version: 1.0>, <Content-Type: multipart/alternative; boundary="--==_mimepart_5a6a9b307444f_1fa42ad0dd9d26407149d"; charset=UTF-8>, <Content-Transfer-Encoding: 7bit>> 
+2.4.1 :006 > SignupMailer.confirm_email(User.last).deliver
+  [1m[36mUser Load (590.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+user.full_name
+linkhttp://localhost:3000/confirmation?token=
+link<a href="http://localhost:3000/">Cars.net</a>
+  Rendered signup_mailer/confirm_email.html.erb (11.9ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Oteilson CarvalhoO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Oteilson Carvalho"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation?token="}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (0.4ms)
+SignupMailer#confirm_email: processed outbound mail in 162.2ms
+Sent mail to oteilsoncarv@bol.com.br (302.5ms)
+Date: Fri, 26 Jan 2018 00:08:58 -0300
+From: no-reply@cars.net
+To: oteilsoncarv@bol.com.br
+Message-ID: <5a6a9bcaa550d_1fa42ad0dd9d2640717e6@UbuntuVBox.mail>
+Subject: Cars.net - confirme seu email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a6a9bca9e1e2_1fa42ad0dd9d264071657";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6a9bca9e1e2_1fa42ad0dd9d264071657
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6a9bca9e1e2_1fa42ad0dd9d264071657
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1>Seja bem vindo ao Cars.net!</h1>
+<p>Seja bem vindo ao Colcho.net,  O Colcho.net =C3=A9 o lugar ideal para =
+voc=C3=AA alugar aquele quarto sobrando na sua casa e ainda conhecer gent=
+e do mundo inteiro.</p>
+<p>Para voc=C3=AA come=C3=A7ar a usar o site, acesse o link:   </p>
+<p>Obrigado por se cadastrar no  </p>=
+
+----==_mimepart_5a6a9bca9e1e2_1fa42ad0dd9d264071657--
+
+ => #<Mail::Message:47076595480680, Multipart: true, Headers: <Date: Fri, 26 Jan 2018 00:08:58 -0300>, <From: no-reply@cars.net>, <To: oteilsoncarv@bol.com.br>, <Bcc: ["sign ups <signups@cars.net>"]>, <Message-ID: <5a6a9bcaa550d_1fa42ad0dd9d2640717e6@UbuntuVBox.mail>>, <Subject: Cars.net - confirme seu email>, <Mime-Version: 1.0>, <Content-Type: multipart/alternative; boundary="--==_mimepart_5a6a9bca9e1e2_1fa42ad0dd9d264071657"; charset=UTF-8>, <Content-Transfer-Encoding: 7bit>> 
+2.4.1 :007 > SignupMailer.confirm_email(User.last).deliver
+  [1m[36mUser Load (19.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+user.full_name
+linkhttp://localhost:3000/confirmation?token=
+link<a href="http://localhost:3000/">Cars.net</a>
+  Rendered signup_mailer/confirm_email.html.erb (0.2ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Oteilson CarvalhoO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Oteilson Carvalho"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation?token="}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (0.2ms)
+SignupMailer#confirm_email: processed outbound mail in 47.5ms
+Sent mail to oteilsoncarv@bol.com.br (20.9ms)
+Date: Fri, 26 Jan 2018 00:12:32 -0300
+From: no-reply@cars.net
+To: oteilsoncarv@bol.com.br
+Message-ID: <5a6a9ca03ece0_1fa42ad0dd9d264071914@UbuntuVBox.mail>
+Subject: Cars.net - confirme seu email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a6a9ca03e50e_1fa42ad0dd9d2640718e2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6a9ca03e50e_1fa42ad0dd9d2640718e2
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6a9ca03e50e_1fa42ad0dd9d2640718e2
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1>Seja bem vindo ao Cars.net!</h1>
+<p>Seja bem vindo ao Colcho.net,  O Colcho.net =C3=A9 o lugar ideal para =
+voc=C3=AA alugar aquele quarto sobrando na sua casa e ainda conhecer gent=
+e do mundo inteiro.</p>
+<p>Para voc=C3=AA come=C3=A7ar a usar o site, acesse o link:   </p>
+<p>Obrigado por se cadastrar no  </p>=
+
+----==_mimepart_5a6a9ca03e50e_1fa42ad0dd9d2640718e2--
+
+ => #<Mail::Message:47076583362760, Multipart: true, Headers: <Date: Fri, 26 Jan 2018 00:12:32 -0300>, <From: no-reply@cars.net>, <To: oteilsoncarv@bol.com.br>, <Bcc: ["sign ups <signups@cars.net>"]>, <Message-ID: <5a6a9ca03ece0_1fa42ad0dd9d264071914@UbuntuVBox.mail>>, <Subject: Cars.net - confirme seu email>, <Mime-Version: 1.0>, <Content-Type: multipart/alternative; boundary="--==_mimepart_5a6a9ca03e50e_1fa42ad0dd9d2640718e2"; charset=UTF-8>, <Content-Transfer-Encoding: 7bit>> 
+2.4.1 :008 > SignupMailer.confirm_email(User.last).deliver
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+user.full_name
+linkhttp://localhost:3000/confirmation?token=
+link<a href="http://localhost:3000/">Cars.net</a>
+  Rendered signup_mailer/confirm_email.html.erb (0.4ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Oteilson CarvalhoO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Oteilson Carvalho"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation?token="}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (0.5ms)
+SignupMailer#confirm_email: processed outbound mail in 18.2ms
+Sent mail to oteilsoncarv@bol.com.br (33.4ms)
+Date: Fri, 26 Jan 2018 00:13:05 -0300
+From: no-reply@cars.net
+To: oteilsoncarv@bol.com.br
+Message-ID: <5a6a9cc1ea6e5_1fa42ad0dd9d264072171@UbuntuVBox.mail>
+Subject: Cars.net - confirme seu email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a6a9cc1e8720_1fa42ad0dd9d264072054";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6a9cc1e8720_1fa42ad0dd9d264072054
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6a9cc1e8720_1fa42ad0dd9d264072054
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1>Seja bem vindo ao Cars.net!</h1>
+<p>Seja bem vindo ao Colcho.net,  O Colcho.net =C3=A9 o lugar ideal para =
+voc=C3=AA alugar aquele quarto sobrando na sua casa e ainda conhecer gent=
+e do mundo inteiro.</p>
+<p>Para voc=C3=AA come=C3=A7ar a usar o site, acesse o link:   </p>
+<p>Obrigado por se cadastrar no  </p>=
+
+----==_mimepart_5a6a9cc1e8720_1fa42ad0dd9d264072054--
+
+ => #<Mail::Message:47076596441340, Multipart: true, Headers: <Date: Fri, 26 Jan 2018 00:13:05 -0300>, <From: no-reply@cars.net>, <To: oteilsoncarv@bol.com.br>, <Bcc: ["sign ups <signups@cars.net>"]>, <Message-ID: <5a6a9cc1ea6e5_1fa42ad0dd9d264072171@UbuntuVBox.mail>>, <Subject: Cars.net - confirme seu email>, <Mime-Version: 1.0>, <Content-Type: multipart/alternative; boundary="--==_mimepart_5a6a9cc1e8720_1fa42ad0dd9d264072054"; charset=UTF-8>, <Content-Transfer-Encoding: 7bit>> 
+2.4.1 :009 > rake routes
+[1mTraceback[m (most recent call last):
+        1: from (irb):9
+[1mNameError ([4mundefined local variable or method `routes' for main:Object[0;1m)[m
+2.4.1 :010 > rake routes[Kquit
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rake routes
+rake aborted!
+NameError: undefined local variable or method `show' for #<ActionDispatch::Routing::Mapper:0x000055d5e4354d68>
+/home/nayronalves/colchonet/config/routes.rb:5:in `block in <top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `instance_exec'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `eval_block'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:408:in `draw'
+/home/nayronalves/colchonet/config/routes.rb:1:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `block in load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:258:in `load_dependency'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `block in load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `each'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:18:in `reload!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:41:in `block in updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/file_update_checker.rb:81:in `execute'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:42:in `updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:31:in `execute_if_updated'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/finisher.rb:128:in `block in <module:Finisher>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `instance_exec'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `run'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:59:in `block in run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:58:in `run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:353:in `initialize!'
+/home/nayronalves/colchonet/config/environment.rb:5:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require_environment!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:445:in `block in run_tasks_blocks'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/rake-12.3.0/exe/rake:27:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => routes => environment
+(See full trace by running task with --trace)
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rake routes[4Pils cke routes | grep confirmation[K | grep confirmation[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+rake aborted!
+NameError: undefined local variable or method `show' for #<ActionDispatch::Routing::Mapper:0x000055b1417a1c08>
+/home/nayronalves/colchonet/config/routes.rb:5:in `block in <top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `instance_exec'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `eval_block'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:408:in `draw'
+/home/nayronalves/colchonet/config/routes.rb:1:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `block in load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:258:in `load_dependency'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `block in load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `each'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:18:in `reload!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:41:in `block in updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/file_update_checker.rb:81:in `execute'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:42:in `updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:31:in `execute_if_updated'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/finisher.rb:128:in `block in <module:Finisher>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `instance_exec'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `run'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:59:in `block in run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:58:in `run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:353:in `initialize!'
+/home/nayronalves/colchonet/config/environment.rb:5:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require_environment!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:445:in `block in run_tasks_blocks'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/rake-12.3.0/exe/rake:27:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => routes => environment
+(See full trace by running task with --trace)
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rake routes[4Pils cke routes | grep confirmation[K[4Pils cke db:migrateils generate migration add_confirmation_fields_to_users confirmed_at:datetime confirmation_token [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cke db:migrate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pils cke routes[4Pils c
+^C]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ /home/nayronalves/colchonet/config/routes.rb:5:in `block in <top (required)>': undefined local variable or method `only_show_path' for #<ActionDispatch::Routing::Mapper:0x00005585a41ac3c0> (NameError)
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `instance_exec'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `eval_block'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:408:in `draw'
+	from /home/nayronalves/colchonet/config/routes.rb:1:in `<top (required)>'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `block in load'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:258:in `load_dependency'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `block in load_paths'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `each'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `load_paths'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:18:in `reload!'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:41:in `block in updater'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/file_update_checker.rb:81:in `execute'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:42:in `updater'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:31:in `execute_if_updated'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/finisher.rb:128:in `block in <module:Finisher>'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `run'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:59:in `block in run_initializers'
+	from /home/nayronalves/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+	from /home/nayronalves/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /home/nayronalves/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /home/nayronalves/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /home/nayronalves/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each'
+	from /home/nayronalves/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `call'
+	from /home/nayronalves/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /home/nayronalves/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+	from /home/nayronalves/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:58:in `run_initializers'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:353:in `initialize!'
+	from /home/nayronalves/colchonet/config/environment.rb:5:in `<top (required)>'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/application.rb:102:in `require'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/application.rb:102:in `preload'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/application.rb:153:in `serve'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/application.rb:141:in `block in run'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/application.rb:135:in `loop'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/application.rb:135:in `run'
+	from /home/nayronalves/.rvm/gems/ruby-2.4.1/gems/spring-2.0.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/nayronalves/.rbenv/versions/2.5.0/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from /home/nayronalves/.rbenv/versions/2.5.0/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from -e:1:in `<main>'
+rails c[K
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails cke routes
+rake aborted!
+NameError: undefined local variable or method `only_show_path' for #<ActionDispatch::Routing::Mapper:0x000055af2be48010>
+/home/nayronalves/colchonet/config/routes.rb:5:in `block in <top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `instance_exec'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `eval_block'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:408:in `draw'
+/home/nayronalves/colchonet/config/routes.rb:1:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `block in load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:258:in `load_dependency'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `block in load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `each'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:18:in `reload!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:41:in `block in updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/file_update_checker.rb:81:in `execute'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:42:in `updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:31:in `execute_if_updated'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/finisher.rb:128:in `block in <module:Finisher>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `instance_exec'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `run'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:59:in `block in run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:58:in `run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:353:in `initialize!'
+/home/nayronalves/colchonet/config/environment.rb:5:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require_environment!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:445:in `block in run_tasks_blocks'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/rake-12.3.0/exe/rake:27:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => routes => environment
+(See full trace by running task with --trace)
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rake routes
+rake aborted!
+NameError: undefined local variable or method `confirmation_show_path' for #<ActionDispatch::Routing::Mapper:0x00005654ed8a9fd8>
+/home/nayronalves/colchonet/config/routes.rb:5:in `block in <top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `instance_exec'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `eval_block'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:408:in `draw'
+/home/nayronalves/colchonet/config/routes.rb:1:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `block in load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:258:in `load_dependency'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `block in load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `each'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:18:in `reload!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:41:in `block in updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/file_update_checker.rb:81:in `execute'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:42:in `updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:31:in `execute_if_updated'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/finisher.rb:128:in `block in <module:Finisher>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `instance_exec'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `run'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:59:in `block in run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:58:in `run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:353:in `initialize!'
+/home/nayronalves/colchonet/config/environment.rb:5:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require_environment!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:445:in `block in run_tasks_blocks'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/rake-12.3.0/exe/rake:27:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => routes => environment
+(See full trace by running task with --trace)
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rake routes
+rake aborted!
+NameError: undefined local variable or method `show_path' for #<ActionDispatch::Routing::Mapper:0x000055dd7fa20d20>
+/home/nayronalves/colchonet/config/routes.rb:5:in `block in <top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `instance_exec'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `eval_block'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:408:in `draw'
+/home/nayronalves/colchonet/config/routes.rb:1:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `block in load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:258:in `load_dependency'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `block in load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `each'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:18:in `reload!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:41:in `block in updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/file_update_checker.rb:81:in `execute'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:42:in `updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:31:in `execute_if_updated'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/finisher.rb:128:in `block in <module:Finisher>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `instance_exec'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `run'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:59:in `block in run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:58:in `run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:353:in `initialize!'
+/home/nayronalves/colchonet/config/environment.rb:5:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require_environment!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:445:in `block in run_tasks_blocks'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/rake-12.3.0/exe/rake:27:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => routes => environment
+(See full trace by running task with --trace)
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rake routes
+rake aborted!
+SyntaxError: /home/nayronalves/colchonet/config/routes.rb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+... :confirmation, :only show_path
+...                      ^~~~~~~~~
+/home/nayronalves/colchonet/config/routes.rb:9: syntax error, unexpected keyword_end, expecting end-of-input
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `block in load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:258:in `load_dependency'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `block in load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `each'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:18:in `reload!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:41:in `block in updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/file_update_checker.rb:81:in `execute'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:42:in `updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:31:in `execute_if_updated'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/finisher.rb:128:in `block in <module:Finisher>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `instance_exec'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `run'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:59:in `block in run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:58:in `run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:353:in `initialize!'
+/home/nayronalves/colchonet/config/environment.rb:5:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require_environment!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:445:in `block in run_tasks_blocks'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/rake-12.3.0/exe/rake:27:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => routes => environment
+(See full trace by running task with --trace)
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rake routes
+rake aborted!
+TypeError: no implicit conversion of Symbol into Integer
+/home/nayronalves/colchonet/config/routes.rb:5:in `[]'
+/home/nayronalves/colchonet/config/routes.rb:5:in `block in <top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `instance_exec'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:426:in `eval_block'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:408:in `draw'
+/home/nayronalves/colchonet/config/routes.rb:1:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `block in load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:258:in `load_dependency'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/dependencies.rb:286:in `load'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `block in load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `each'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:55:in `load_paths'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:18:in `reload!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:41:in `block in updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/activesupport-5.1.4/lib/active_support/file_update_checker.rb:81:in `execute'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:42:in `updater'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/routes_reloader.rb:31:in `execute_if_updated'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application/finisher.rb:128:in `block in <module:Finisher>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `instance_exec'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:30:in `run'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:59:in `block in run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/initializable.rb:58:in `run_initializers'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:353:in `initialize!'
+/home/nayronalves/colchonet/config/environment.rb:5:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:329:in `require_environment!'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/application.rb:445:in `block in run_tasks_blocks'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/gems/rake-12.3.0/exe/rake:27:in `<top (required)>'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+/home/nayronalves/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => routes => environment
+(See full trace by running task with --trace)
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rake routes
+           Prefix Verb   URI Pattern                   Controller#Action
+        employees GET    /employees(.:format)          employees#index
+                  POST   /employees(.:format)          employees#create
+     new_employee GET    /employees/new(.:format)      employees#new
+    edit_employee GET    /employees/:id/edit(.:format) employees#edit
+         employee GET    /employees/:id(.:format)      employees#show
+                  PATCH  /employees/:id(.:format)      employees#update
+                  PUT    /employees/:id(.:format)      employees#update
+                  DELETE /employees/:id(.:format)      employees#destroy
+             cars GET    /cars(.:format)               cars#index
+                  POST   /cars(.:format)               cars#create
+          new_car GET    /cars/new(.:format)           cars#new
+         edit_car GET    /cars/:id/edit(.:format)      cars#edit
+              car GET    /cars/:id(.:format)           cars#show
+                  PATCH  /cars/:id(.:format)           cars#update
+                  PUT    /cars/:id(.:format)           cars#update
+                  DELETE /cars/:id(.:format)           cars#destroy
+            users GET    /users(.:format)              users#index
+                  POST   /users(.:format)              users#create
+         new_user GET    /users/new(.:format)          users#new
+        edit_user GET    /users/:id/edit(.:format)     users#edit
+             user GET    /users/:id(.:format)          users#show
+                  PATCH  /users/:id(.:format)          users#update
+                  PUT    /users/:id(.:format)          users#update
+                  DELETE /users/:id(.:format)          users#destroy
+ new_confirmation GET    /confirmation/new(.:format)   confirmations#new
+edit_confirmation GET    /confirmation/edit(.:format)  confirmations#edit
+     confirmation GET    /confirmation(.:format)       confirmations#show
+                  PATCH  /confirmation(.:format)       confirmations#update
+                  PUT    /confirmation(.:format)       confirmations#update
+                  DELETE /confirmation(.:format)       confirmations#destroy
+                  POST   /confirmation(.:format)       confirmations#create
+             root GET    /                             home#index
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails c
+Running via Spring preloader in process 9148
+Loading development environment (Rails 5.1.4)
+2.4.1 :001 > quitrake routesSignupMailer.confirm_email(User.last).deliver
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+user.full_name
+linkhttp://localhost:3000/confirmation?token=
+link<a href="http://localhost:3000/">Cars.net</a>
+  Rendered signup_mailer/confirm_email.html.erb (1.9ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Oteilson CarvalhoO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Oteilson Carvalho"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation?token="}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (0.9ms)
+SignupMailer#confirm_email: processed outbound mail in 399.0ms
+Sent mail to oteilsoncarv@bol.com.br (151.2ms)
+Date: Fri, 26 Jan 2018 00:18:35 -0300
+From: no-reply@cars.net
+To: oteilsoncarv@bol.com.br
+Message-ID: <5a6a9e0b97ce4_23bc2abad251c644476e@UbuntuVBox.mail>
+Subject: Cars.net - confirme seu email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a6a9e0b8664d_23bc2abad251c644475f3";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6a9e0b8664d_23bc2abad251c644475f3
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6a9e0b8664d_23bc2abad251c644475f3
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1>Seja bem vindo ao Cars.net!</h1>
+<p>Seja bem vindo ao Colcho.net,  O Colcho.net =C3=A9 o lugar ideal para =
+voc=C3=AA alugar aquele quarto sobrando na sua casa e ainda conhecer gent=
+e do mundo inteiro.</p>
+<p>Para voc=C3=AA come=C3=A7ar a usar o site, acesse o link:   </p>
+<p>Obrigado por se cadastrar no  </p>=
+
+----==_mimepart_5a6a9e0b8664d_23bc2abad251c644475f3--
+
+ => #<Mail::Message:46981888639960, Multipart: true, Headers: <Date: Fri, 26 Jan 2018 00:18:35 -0300>, <From: no-reply@cars.net>, <To: oteilsoncarv@bol.com.br>, <Bcc: ["sign ups <signups@cars.net>"]>, <Message-ID: <5a6a9e0b97ce4_23bc2abad251c644476e@UbuntuVBox.mail>>, <Subject: Cars.net - confirme seu email>, <Mime-Version: 1.0>, <Content-Type: multipart/alternative; boundary="--==_mimepart_5a6a9e0b8664d_23bc2abad251c644475f3"; charset=UTF-8>, <Content-Transfer-Encoding: 7bit>> 
+2.4.1 :002 > SignupMailer.confirm_email(User.last).deliver[C[C[C[C[C[C[C[C[C[C[C[C[Cquit[K[K[K[K[Krake routes
+[1mTraceback[m (most recent call last):
+        1: from (irb):2
+[1mNameError ([4mundefined local variable or method `routes' for main:Object[0;1m)[m
+2.4.1 :003 > quit
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rails cke routes
+       Prefix Verb   URI Pattern                   Controller#Action
+    employees GET    /employees(.:format)          employees#index
+              POST   /employees(.:format)          employees#create
+ new_employee GET    /employees/new(.:format)      employees#new
+edit_employee GET    /employees/:id/edit(.:format) employees#edit
+     employee GET    /employees/:id(.:format)      employees#show
+              PATCH  /employees/:id(.:format)      employees#update
+              PUT    /employees/:id(.:format)      employees#update
+              DELETE /employees/:id(.:format)      employees#destroy
+         cars GET    /cars(.:format)               cars#index
+              POST   /cars(.:format)               cars#create
+      new_car GET    /cars/new(.:format)           cars#new
+     edit_car GET    /cars/:id/edit(.:format)      cars#edit
+          car GET    /cars/:id(.:format)           cars#show
+              PATCH  /cars/:id(.:format)           cars#update
+              PUT    /cars/:id(.:format)           cars#update
+              DELETE /cars/:id(.:format)           cars#destroy
+        users GET    /users(.:format)              users#index
+              POST   /users(.:format)              users#create
+     new_user GET    /users/new(.:format)          users#new
+    edit_user GET    /users/:id/edit(.:format)     users#edit
+         user GET    /users/:id(.:format)          users#show
+              PATCH  /users/:id(.:format)          users#update
+              PUT    /users/:id(.:format)          users#update
+              DELETE /users/:id(.:format)          users#destroy
+ confirmation GET    /confirmation(.:format)       confirmations#show
+         root GET    /                             home#index
+]0;nayronalves@UbuntuVBox: ~/colchonet[01;32mnayronalves@UbuntuVBox[00m:[01;34m~/colchonet[00m$ rake routes[4Pils cke routes[4Pils c
+Running via Spring preloader in process 9314
+Loading development environment (Rails 5.1.4)
+2.4.1 :001 > quitrake routesSignupMailer.confirm_email(User.last).deliver
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+user.full_name
+linkhttp://localhost:3000/confirmation?token=
+link<a href="http://localhost:3000/">Cars.net</a>
+  Rendered signup_mailer/confirm_email.html.erb (1.9ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Oteilson CarvalhoO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Oteilson Carvalho"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation?token="}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (0.9ms)
+SignupMailer#confirm_email: processed outbound mail in 337.1ms
+Sent mail to oteilsoncarv@bol.com.br (119.5ms)
+Date: Fri, 26 Jan 2018 00:28:23 -0300
+From: no-reply@cars.net
+To: oteilsoncarv@bol.com.br
+Message-ID: <5a6aa05769efe_24622b0f23e5c65026780@UbuntuVBox.mail>
+Subject: Cars.net - confirme seu email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a6aa05765321_24622b0f23e5c650266a4";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6aa05765321_24622b0f23e5c650266a4
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6aa05765321_24622b0f23e5c650266a4
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1>Seja bem vindo ao Cars.net!</h1>
+<p>Seja bem vindo ao Colcho.net,  O Colcho.net =C3=A9 o lugar ideal para =
+voc=C3=AA alugar aquele quarto sobrando na sua casa e ainda conhecer gent=
+e do mundo inteiro.</p>
+<p>Para voc=C3=AA come=C3=A7ar a usar o site, acesse o link:   </p>
+<p>Obrigado por se cadastrar no  </p>=
+
+----==_mimepart_5a6aa05765321_24622b0f23e5c650266a4--
+
+ => #<Mail::Message:47344032905540, Multipart: true, Headers: <Date: Fri, 26 Jan 2018 00:28:23 -0300>, <From: no-reply@cars.net>, <To: oteilsoncarv@bol.com.br>, <Bcc: ["sign ups <signups@cars.net>"]>, <Message-ID: <5a6aa05769efe_24622b0f23e5c65026780@UbuntuVBox.mail>>, <Subject: Cars.net - confirme seu email>, <Mime-Version: 1.0>, <Content-Type: multipart/alternative; boundary="--==_mimepart_5a6aa05765321_24622b0f23e5c650266a4"; charset=UTF-8>, <Content-Transfer-Encoding: 7bit>> 
+2.4.1 :002 > SignupMailer.confirm_email(User.last).deliver
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+  Rendered signup_mailer/confirm_email.html.erb (1.1ms)
+SignupMailer#confirm_email: processed outbound mail in 10.2ms
+[1mTraceback[m (most recent call last):
+        2: from (irb):2
+        1: from app/mailers/signup_mailer.rb:7:in `confirm_email'
+[1mSyntaxError ([4m/home/nayronalves/colchonet/app/views/signup_mailer/confirm_email.html.erb:3: syntax error, unexpected ',', expecting ')'
+...output_buffer.append=( %{link}, @confirmation_link );@output...
+...                              ^
+/home/nayronalves/colchonet/app/views/signup_mailer/confirm_email.html.erb:4: syntax error, unexpected ',', expecting ')'
+...output_buffer.append=( %{link}, (link_to 'Cars.net', root_ur...
+...                              ^[0;1m)[m
+2.4.1 :003 > SignupMailer.confirm_email(User.last).deliver
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+  Rendered signup_mailer/confirm_email.html.erb (1.3ms)
+SignupMailer#confirm_email: processed outbound mail in 8.5ms
+[1mTraceback[m (most recent call last):
+        2: from (irb):3
+        1: from app/mailers/signup_mailer.rb:7:in `confirm_email'
+[1mSyntaxError ([4m/home/nayronalves/colchonet/app/views/signup_mailer/confirm_email.html.erb:3: syntax error, unexpected ')', expecting '='
+...ation_link, @confirmation_link) );@output_buffer.safe_append...
+...                              ^
+/home/nayronalves/colchonet/app/views/signup_mailer/confirm_email.html.erb:4: syntax error, unexpected ',', expecting ')'
+...output_buffer.append=( %{link}, (link_to 'Cars.net', root_ur...
+...                              ^
+/home/nayronalves/colchonet/app/views/signup_mailer/confirm_email.html.erb:6: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/nayronalves/colchonet/app/views/signup_mailer/confirm_email.html.erb:8: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~[0;1m)[m
+2.4.1 :004 > SignupMailer.confirm_email(User.last).deliver
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+  Rendered signup_mailer/confirm_email.html.erb (0.9ms)
+SignupMailer#confirm_email: processed outbound mail in 7.1ms
+[1mTraceback[m (most recent call last):
+        2: from (irb):4
+        1: from app/mailers/signup_mailer.rb:7:in `confirm_email'
+[1mSyntaxError ([4m/home/nayronalves/colchonet/app/views/signup_mailer/confirm_email.html.erb:4: unknown type of %string
+...eze;@output_buffer.append=( %link, (link_to 'Cars.net', root...
+...                            ^~~
+/home/nayronalves/colchonet/app/views/signup_mailer/confirm_email.html.erb:4: syntax error, unexpected end-of-input
+...eze;@output_buffer.append=( %link, (link_to 'Cars.net', root...
+...                            ^~~[0;1m)[m
+2.4.1 :005 > SignupMailer.confirm_email(User.last).deliver
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+  Rendered signup_mailer/confirm_email.html.erb (1.0ms)
+SignupMailer#confirm_email: processed outbound mail in 7.6ms
+[1mTraceback[m (most recent call last):
+        2: from (irb):5
+        1: from app/mailers/signup_mailer.rb:7:in `confirm_email'
+[1mSyntaxError ([4m/home/nayronalves/colchonet/app/views/signup_mailer/confirm_email.html.erb:4: syntax error, unexpected ',', expecting ')'
+...output_buffer.append=( %{link}, (link_to 'Cars.net', root_ur...
+...                              ^[0;1m)[m
+2.4.1 :006 > SignupMailer.confirm_email(User.last).deliver
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+  Rendered signup_mailer/confirm_email.html.erb (0.9ms)
+SignupMailer#confirm_email: processed outbound mail in 7.4ms
+[1mTraceback[m (most recent call last):
+        2: from (irb):6
+        1: from app/mailers/signup_mailer.rb:7:in `confirm_email'
+[1mSyntaxError ([4m/home/nayronalves/colchonet/app/views/signup_mailer/confirm_email.html.erb:4: syntax error, unexpected '(', expecting ')'
+...utput_buffer.append=( %{link} (link_to 'Cars.net', root_url)...
+...                              ^
+/home/nayronalves/colchonet/app/views/signup_mailer/confirm_email.html.erb:4: syntax error, unexpected ')', expecting keyword_end
+...link_to 'Cars.net', root_url) );@output_buffer.safe_append='...
+...                              ^[0;1m)[m
+2.4.1 :007 > SignupMailer.confirm_email(User.last).deliver
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+  Rendered signup_mailer/confirm_email.html.erb (1.0ms)
+SignupMailer#confirm_email: processed outbound mail in 7.6ms
+[1mTraceback[m (most recent call last):
+        2: from (irb):7
+        1: from app/mailers/signup_mailer.rb:7:in `confirm_email'
+[1mSyntaxError ([4m/home/nayronalves/colchonet/app/views/signup_mailer/confirm_email.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting ')'
+...buffer.append=( %{link} link_to 'Cars.net', root_url );@outp...
+...                        ^~~~~~~[0;1m)[m
+2.4.1 :008 > SignupMailer.confirm_email(User.last).deliver
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering signup_mailer/confirm_email.html.erb
+  Rendered signup_mailer/confirm_email.html.erb (0.8ms)
+  Rendering signup_mailer/confirm_email.text.erb
+Seja bem vindo ao Cars.net!
+Seja bem vindo ao Colcho.net, Oteilson CarvalhoO Colcho.net é o lugar ideal para você alugar aquele quarto sobrando na sua casa e ainda conhecer gente do mundo inteiro.
+{:full_name=>"Oteilson Carvalho"}
+Para você começar a usar o site, acesse o link: %{link}
+{:link=>"http://localhost:3000/confirmation?token="}
+Obrigado por se cadastrar no %{link}
+{:link=>"http://localhost:3000/"}
+  Rendered signup_mailer/confirm_email.text.erb (0.6ms)
+SignupMailer#confirm_email: processed outbound mail in 29.3ms
+Sent mail to oteilsoncarv@bol.com.br (22.6ms)
+Date: Fri, 26 Jan 2018 00:35:44 -0300
+From: no-reply@cars.net
+To: oteilsoncarv@bol.com.br
+Message-ID: <5a6aa210e8524_24622b0f23e5c65026916@UbuntuVBox.mail>
+Subject: Cars.net - confirme seu email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a6aa210e29a7_24622b0f23e5c65026870";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6aa210e29a7_24622b0f23e5c65026870
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a6aa210e29a7_24622b0f23e5c65026870
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<h1>Seja bem vindo ao Cars.net!</h1>
+<p>Seja bem vindo ao Colcho.net, user.full_name O Colcho.net =C3=A9 o lug=
+ar ideal para voc=C3=AA alugar aquele quarto sobrando na sua casa e ainda=
+ conhecer gente do mundo inteiro.</p>
+<p

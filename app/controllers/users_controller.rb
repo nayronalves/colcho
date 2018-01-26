@@ -1,10 +1,6 @@
   class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
-    #   def show
-   	# @user = User.find(params[:id])
-    #   end
-
       def new
         @user = User.new
       end
@@ -15,13 +11,13 @@
       
       def show
         @users = User.all
-        # @user = User.find(params[:id])
       end
 
       def create
-   	@user = User.new(user_params)
+      	@user = User.new(user_params)
         if @user.save
-  	      redirect_to @user, notice: 'Cadastro criado com sucesso!'
+          SignupMailer.confirm_email(@user).deliver     
+          redirect_to @user, notice: 'Cadastro criado com sucesso!'
         else
   	      render action: :new
         end
@@ -42,14 +38,22 @@
       end
     end
   end
+
+   def destroy
+    @user.destroy
+    respond_to do |format|
+      format.html { redirect_to users_url, notice: 'Employee was successfully destroyed.' }
+      format.json { head :no_content }
+    end
+  end
       private
 
       def set_user
        @user = User.find(params[:id])
       end
       def user_params
-  	    params.require(:user).permit(:email, :full_name, :location, :bio)
-       # params.require(:user).permit(:email, :full_name, :location, :password, :password_confirmation, :bio)
+     	    # params.require(:user).permit(:email, :full_name, :location, :bio)
+          params.require(:user).permit(:email, :full_name, :location, :password_digest, :bio)
       end
 
   end

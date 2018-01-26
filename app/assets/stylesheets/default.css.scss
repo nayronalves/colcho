@@ -1,5 +1,5 @@
 $header-height: 55px;
-$content-width: 700px;
+$content-width: 800px;
 $serif-families: "Cuprum", "Georgia", serif;
 $sans-serif-families: "Helvetica", sans-serif;
 $error-text-color: #B94A48;
@@ -8,62 +8,79 @@ $success-text-color: #468847;
 	font-family: $sans-serif-families;
 	font-size: 14px;
 }
-body { background-color: #f5f5f5; }
+#body { background-color: #FF0000; }
 
 @mixin shadow($color, $x, $y, $radius) {
-	-moz-box-shadow: $color $x $y $radius;
-	-webkit-box-shadow: $color $x $y $radius;
-	box-shadow: $color $x $y $radius;
-}
+				-moz-box-shadow: $color $x $y $radius;
+				-webkit-box-shadow: $color $x $y $radius;
+				box-shadow: $color $x $y $radius;
+				}
 
 header {
 	@include shadow(#ccc, 0, 3px, 6px);
 	border-bottom: 1px solid #686;
 	margin-bottom: 15px;
-
 	#header-wrap {
 		width: $content-width;
 		margin: 0 auto;
-	}
-	height: $header-height;
-	background-color: #9ECE71;
+				}
+	height: $header-height;	
+	background-color: #FF8C00;
 	h1 {
-		float: left;
+		float: left; 		
 		a {
-			color: #333;
-			font-family: $serif-families;
-			font-weight: 400;
-			font-size: 2.5em;
-			&:hover {
-				color: #000;
-			}
+		color: #333;
+		font-family: $serif-families;
+		font-weight: 400;
+		font-size: 2.5em;
+		&:hover {
+			color: #fff;
+				}
+		   }
 		}
 	}
-}
 
 header nav {
+	line-height: $header-height;
 	float: right;
-	ul {
-		display: inline-block;
-		vertical-align: middle;
-		line-height: 55px;
-	}
+
 	li {
-		display: inline-block;
-		line-height: 24px;
+		display: inline;
 		background-color: #546f3c;
-		padding: 3px 10px;
+		padding: 7px 10px;
 		-moz-border-radius: 5px;
 		border-radius: 5px;
-		vertical-align: middle;
+
 		a {
-			display: block;
 			font-size: 12px;
 			font-weight: 600;
 			color: #fff;
+			
+			}
 		}
 	}
-}
+
+
+table{
+	width: 100%;
+	td {vertical-align: middle;
+			}
+ 		
+ 	th {text-align: center;
+ 		background-color: #FF8C00;
+    	color: white;
+    	font-variant: small-caps;
+    	font-weight: 900
+    	}
+ 	
+ 	tr {#userespec{color: #FF0040;
+		font-size: 1.5em;}
+		}
+	tr:hover {background-color: #f5f5f5;}			
+	}	 
+
+
+
 
 #content {
 	text-align: left;
